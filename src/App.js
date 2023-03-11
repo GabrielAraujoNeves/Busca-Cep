@@ -11,7 +11,6 @@ const [input, setInput] = useState('');
 const [cep, setCep] = useState({})
 
 async function botaoalert(){
-  // 69029100/json/
 
   if(input === ''){
     alert("Preencha algum cep!")
